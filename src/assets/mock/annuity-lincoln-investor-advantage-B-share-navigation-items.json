@@ -1,0 +1,111 @@
+{
+  "responseStatus": "SUCCESS",
+  "data": {
+    "productName": "<i>Lincoln Investor Advantage</i><sup>&#174;</sup> B-share",
+    "productType": "Variable Annuity",
+    "errorMsg": null,
+    "accountNum": null,
+    "showProductName": true,
+    "showRiders": true,
+    "vtgVa": true,
+    "riders": [],
+    "deathRiders": [
+      {
+        "productCode": "",
+        "productName": "",
+        "lbCode": "",
+        "lbName": "",
+        "dbCode": "812F4A833AA74614E0534C43400A0C3C",
+        "dbName": "Account Value",
+        "irAsOfDateStr": null,
+        "active": true,
+        "dbFeeInd": false,
+        "gibInd": false,
+        "defaultOption": true,
+        "tdiInd": false,
+        "feeInd": false
+      },
+      {
+        "productCode": "",
+        "productName": "",
+        "lbCode": "",
+        "lbName": "",
+        "dbCode": "812F4A833AA84614E0534C43400A0C3C",
+        "dbName": "Earning Optimizer",
+        "irAsOfDateStr": null,
+        "active": true,
+        "dbFeeInd": true,
+        "gibInd": false,
+        "defaultOption": false,
+        "tdiInd": false,
+        "feeInd": false
+      }
+    ],
+    "livingRiders": [
+      {
+        "productCode": null,
+        "productName": null,
+        "lbCode": "0",
+        "lbName": "No Rider",
+        "dbCode": null,
+        "dbName": null,
+        "irAsOfDateStr": null,
+        "active": true,
+        "defaultOption": true,
+        "dbFeeInd": false,
+        "feeInd": false,
+        "gibInd": false,
+        "tdiInd": false
+      },
+      {
+        "productCode": "",
+        "productName": "",
+        "lbCode": "812F4A833A894614E0534C43400A0C3C",
+        "lbName": "i4LIFE<sup>&#174;</sup> Advantage",
+        "dbCode": "",
+        "dbName": "",
+        "irAsOfDateStr": null,
+        "active": true,
+        "dbFeeInd": false,
+        "gibInd": false,
+        "defaultOption": false,
+        "tdiInd": false,
+        "feeInd": false
+      }
+    ],
+    "investModels": [],
+    "l4NavItems": [
+      {
+        "navLink": "<Link proxy=\"true\" url=\"http://afpquery/AFPQuery/AFPQueryRequestServlet?appName=AFP&amp;appEvent=querysa&amp;appState=query&amp;transformRequest=performance&amp;sacode={sacode}&amp;orderType={orderType}&amp;source=\">Performance</Link>",
+        "navText": "Performance",
+        "productId": "73A809FBE9DE2A70E0534D43400A5A4A",
+        "pllOrder": 1,
+        "showNavItem": true
+      },
+      {
+        "navLink": "<Link proxy=\"true\" url=\"http://afpquery/AFPQuery/AFPQueryRequestServlet?appName=AFP&amp;appEvent=querysa&amp;appState=query&amp;transformRequest=unitvalues&amp;sacode={sacode}&amp;orderType={orderType}&amp;source=\">Unit Values</Link>",
+        "navText": "Unit Values",
+        "productId": "73A809FBE9DE2A70E0534D43400A5A4A",
+        "pllOrder": 2,
+        "showNavItem": true
+      },
+      {
+        "navLink": "<Link serviceid=\"LLCDocumentService\" serviceparams=\"FileName={sacode}-fp.pdf&amp;FileType=FundProfile\" type=\"doc\">Fund Profile</Link>",
+        "navText": "Fund Profile",
+        "productId": "73A809FBE9DE2A70E0534D43400A5A4A",
+        "pllOrder": 3,
+        "showNavItem": false
+      },
+      {
+        "navLink": "<Link proxy=\"true\" url=\"http://afpquery/AFPQuery/AFPQueryRequestServlet?appName=AFP&amp;appEvent=querysa&amp;appState=query&amp;transformRequest=prospectus&amp;sacode={sacode}&amp;source=\">Prospectus/Reports</Link>",
+        "navText": "Prospectus/Reports",
+        "productId": "73A809FBE9DE2A70E0534D43400A5A4A",
+        "pllOrder": 4,
+        "showNavItem": true
+      }
+    ]
+  },
+  "error": null,
+  "appVersion": "1809327",
+  "requestId": "9abfcdfa-272b-44e7-968d-66cf4ad0a774"
+}

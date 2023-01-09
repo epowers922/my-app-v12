@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
 
+## NPM Repository configuration
+
+The following npm repos should be configured:
+registry=https://registry.npmjs.org/
+@lfg-apps:registry=https://artifactory.jfrog.lfg.com/artifactory/api/npm/omnichannel-npm-release/
+@ng:registry=https://artifactory.jfrog.lfg.com/artifactory/api/npm/omnichannel-npm-release/
+@styles:registry=https://artifactory.jfrog.lfg.com/artifactory/api/npm/omnichannel-npm-release/
+
 ## Install
 
 Run `npm install` to install dependencies for this project.
